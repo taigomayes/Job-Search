@@ -48,7 +48,7 @@ const ToggleButton = styled.button`
 export const Filter = ({filter, setFilter}) => {
 
 
-const [toggle, setToggle] = useState('none')
+const [toggle, setToggle] = useState('flex')
 
 const toggleFilter = () => {
     if (toggle === 'none'){
