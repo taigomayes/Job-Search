@@ -10,11 +10,11 @@ const Header = styled.img`
   width: 100vw;
   height: 200px;
   position: fixed;
-  top: -100px;
+  top: -130px;
 
   z-index: 50;
   background: white;
-  border-bottom: 1px solid hsl(180, 29%, 50%);
+ 
 `
 
 const Logo = styled.div`

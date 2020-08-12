@@ -18,24 +18,54 @@ const FilterBar = styled.div`
     border-bottom: 1px solid hsl(180, 29%, 50%);
     border-radius: 0 0 10px 10px;
     position: fixed;
-    top: 55px;
+    top: 70px;
     z-index: 100;
     background: white;
+
+    @media (max-width: 500px) {
+    display: none;
+  }
     
 
+`
+
+const ToggleButton = styled.button`
+    width: 50px;
+    height: 30px;
+    background: hsl(180, 29%, 50%);
+    position: fixed;
+    z-index: 300;
+    top: 15px;
+    left: calc(50% + 120px);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: block;
+    
 `
 
 
 export const Filter = ({filter, setFilter}) => {
 
 
+const [toggle, setToggle] = useState('none')
 
-
+const toggleFilter = () => {
+    if (toggle === 'none'){
+        setToggle('flex')
+    } else {
+        setToggle('none')
+    }
+}
 
     return (
    
 <>
-        <FilterBar>
+
+<ToggleButton onClick={toggleFilter} >filter</ToggleButton>
+
+
+        <FilterBar style={{ display: toggle }}>
             <FilterButton filter={filter} setFilter={setFilter} lang="HTML" />
             <FilterButton filter={filter} setFilter={setFilter} lang="CSS" />
             <FilterButton filter={filter} setFilter={setFilter} lang="JS" />
@@ -47,6 +77,9 @@ export const Filter = ({filter, setFilter}) => {
             <FilterButton filter={filter} setFilter={setFilter} lang="Django" />
             <FilterButton filter={filter} setFilter={setFilter} lang="RoR" />
         </FilterBar>
+
+
+
         
 </>
  
