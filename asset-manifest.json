@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Job-Search/static/css/main.a505d55e.chunk.css",
-    "main.js": "/Job-Search/static/js/main.880edbdc.chunk.js",
-    "main.js.map": "/Job-Search/static/js/main.880edbdc.chunk.js.map",
+    "main.js": "/Job-Search/static/js/main.6d81d2b3.chunk.js",
+    "main.js.map": "/Job-Search/static/js/main.6d81d2b3.chunk.js.map",
     "runtime-main.js": "/Job-Search/static/js/runtime-main.0fb88646.js",
     "runtime-main.js.map": "/Job-Search/static/js/runtime-main.0fb88646.js.map",
     "static/js/2.7ddc28b1.chunk.js": "/Job-Search/static/js/2.7ddc28b1.chunk.js",
     "static/js/2.7ddc28b1.chunk.js.map": "/Job-Search/static/js/2.7ddc28b1.chunk.js.map",
     "index.html": "/Job-Search/index.html",
-    "precache-manifest.38451a4d77f8506c5b438ad2354d16b0.js": "/Job-Search/precache-manifest.38451a4d77f8506c5b438ad2354d16b0.js",
+    "precache-manifest.97ab6a7540228464483353c4ada8bbb3.js": "/Job-Search/precache-manifest.97ab6a7540228464483353c4ada8bbb3.js",
     "service-worker.js": "/Job-Search/service-worker.js",
     "static/css/main.a505d55e.chunk.css.map": "/Job-Search/static/css/main.a505d55e.chunk.css.map",
     "static/js/2.7ddc28b1.chunk.js.LICENSE.txt": "/Job-Search/static/js/2.7ddc28b1.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0fb88646.js",
     "static/js/2.7ddc28b1.chunk.js",
     "static/css/main.a505d55e.chunk.css",
-    "static/js/main.880edbdc.chunk.js"
+    "static/js/main.6d81d2b3.chunk.js"
   ]
 }
